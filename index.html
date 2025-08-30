@@ -28,6 +28,34 @@
 
     var layerGroups = {};
 
+    // Definisi ikon per kategori
+    var icons = {
+      "Hot Spot": L.icon({ 
+        iconUrl: "/icon/icon1.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+      }),
+      "Non Hot Spot": L.icon({ 
+        iconUrl: "/icon/icon2.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+      }),
+      "Pengambilan Sampel": L.icon({ 
+        iconUrl: "/icon/icon3.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+      }),
+      "Lainnya": L.icon({ 
+        iconUrl: "/icon/icon4.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+      })
+    };
+
     // Load CSV
     Papa.parse("data.csv", {
       download: true,
@@ -49,8 +77,11 @@
             }
           }
 
-          var marker = L.marker([parseFloat(row.Latitude), parseFloat(row.Longitude)])
-            .bindPopup(popupContent);
+          // Pakai ikon sesuai kategori, fallback ke "Lainnya"
+          var marker = L.marker(
+            [parseFloat(row.Latitude), parseFloat(row.Longitude)],
+            { icon: icons[kategori] || icons["Lainnya"] }
+          ).bindPopup(popupContent);
 
           layerGroups[kategori].addLayer(marker);
         });
