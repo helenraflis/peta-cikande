@@ -35,7 +35,7 @@
             layerGroups[kategori] = L.layerGroup().addTo(map);
           }
           var marker = L.marker([parseFloat(row.Latitude), parseFloat(row.Longitude)])
-            .bindPopup("<b>" + row.Nama + "</b><br/>Kategori: " + kategori + Paparan + Keterangan);
+            .bindPopup("<b>" + row.Nama + "</b><br/>Kategori: " + kategori);
           layerGroups[kategori].addLayer(marker);
         });
 
