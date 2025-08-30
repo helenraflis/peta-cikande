@@ -17,79 +17,107 @@
   <h2>Peta Pemantauan Kawasan Cikande</h2>
   <div id="map"></div>
 
-  <script>
-    var map = L.map('map').setView([-6.1874487344482105, 106.32205388159095], 11);
+ <script>
+  var map = L.map('map').setView([-6.1874487344482105, 106.32205388159095], 11);
 
-    // Basemap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
+  // Basemap
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
 
-    var layerGroups = {};
+  var layerGroups = {};
 
-    // Definisi ikon per kategori
-    var icons = {
-      "Hot Spot": L.icon({ 
-        iconUrl: "icon1.png",
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32]
-      }),
-      "Non Hot Spot": L.icon({ 
-        iconUrl: "icon2.png",
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32]
-      }),
-      "Pengambilan Sampel": L.icon({ 
-        iconUrl: "icon3.png",
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32]
-      }),
-      "Lainnya": L.icon({ 
-        iconUrl: "icon4.png",
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32]
-      })
-    };
+  // Tambahkan layer untuk radius supaya bisa dicentang
+  var radiusLayers = {
+    "Radius 2 km": L.layerGroup().addTo(map),
+    "Radius 5 km": L.layerGroup().addTo(map)
+  };
 
-    // Load CSV
-    Papa.parse("data.csv", {
-      download: true,
-      header: true,
-      complete: function(results) {
-        results.data.forEach(function(row) {
-          if (!row.Latitude || !row.Longitude) return;
+  var centerLatLng = [-6.1874487344482105, 106.32205388159095];
 
-          var kategori = row.Kategori || "Lainnya";
-          if (!layerGroups[kategori]) {
-            layerGroups[kategori] = L.layerGroup().addTo(map);
+  // Radius 2 km (biru pekat, semi-transparan)
+  var circle2km = L.circle(centerLatLng, {
+    color: "#1E90FF",         // border biru
+    weight: 2,                 // ketebalan garis
+    fillColor: "#1E90FF",      // isi biru
+    fillOpacity: 0.2,          // transparansi isi
+    radius: 2000
+  }).bindPopup("<b>Radius 2 km</b> dari pusat");
+  radiusLayers["Radius 2 km"].addLayer(circle2km);
+
+  // Radius 5 km (merah lebih transparan)
+  var circle5km = L.circle(centerLatLng, {
+    color: "#FF4500",          // border merah
+    weight: 2,
+    fillColor: "#FF6347",      // isi merah muda
+    fillOpacity: 0.1,
+    radius: 5000
+  }).bindPopup("<b>Radius 5 km</b> dari pusat");
+  radiusLayers["Radius 5 km"].addLayer(circle5km);
+
+  // Definisi ikon per kategori
+  var icons = {
+    "Hot Spot": L.icon({ 
+      iconUrl: "icon1.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    }),
+    "Non Hot Spot": L.icon({ 
+      iconUrl: "icon2.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    }),
+    "Pengambilan Sampel": L.icon({ 
+      iconUrl: "icon3.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    }),
+    "Lainnya": L.icon({ 
+      iconUrl: "icon4.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    })
+  };
+
+  // Load CSV
+  Papa.parse("data.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+      results.data.forEach(function(row) {
+        if (!row.Latitude || !row.Longitude) return;
+
+        var lat = parseFloat(row.Latitude);
+        var lon = parseFloat(row.Longitude);
+        var kategori = row.Kategori || "Lainnya";
+
+        if (!layerGroups[kategori]) {
+          layerGroups[kategori] = L.layerGroup().addTo(map);
+        }
+
+        // Popup dari semua kolom CSV
+        var popupContent = "<b>" + (row.Nama || "Tanpa Nama") + "</b><br/>";
+        for (var key in row) {
+          if (row[key] && key !== "Latitude" && key !== "Longitude") {
+            popupContent += "<b>" + key + ":</b> " + row[key] + "<br/>";
           }
+        }
 
-          // Buat isi popup dinamis dari semua kolom CSV
-          var popupContent = "<b>" + (row.Nama || "Tanpa Nama") + "</b><br/>";
-          for (var key in row) {
-            if (row[key] && key !== "Latitude" && key !== "Longitude") {
-              popupContent += "<b>" + key + ":</b> " + row[key] + "<br/>";
-            }
-          }
+        var marker = L.marker([lat, lon], { icon: icons[kategori] || icons["Lainnya"] })
+                      .bindPopup(popupContent);
+        layerGroups[kategori].addLayer(marker);
+      });
 
-          // Pakai ikon sesuai kategori, fallback ke "Lainnya"
-          var marker = L.marker(
-            [parseFloat(row.Latitude), parseFloat(row.Longitude)],
-            { icon: icons[kategori] || icons["Lainnya"] }
-          ).bindPopup(popupContent);
+      // Tambahkan kontrol layer termasuk radius
+      L.control.layers(null, Object.assign({}, layerGroups, radiusLayers), { collapsed:false }).addTo(map);
+    }
+  });
+</script>
 
-          layerGroups[kategori].addLayer(marker);
-        });
-
-        // Tambahkan kontrol layer
-        L.control.layers(null, layerGroups, { collapsed:false }).addTo(map);
-      }
-    });
-  </script>
 </body>
 </html>
