@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="style.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <style>
+    body { margin:0; padding:0; }
+    #map { height: 90vh; width: 100%; }
+    h2 { margin: 10px; font-family: sans-serif; }
+  </style>
 </head>
 <body>
   <h2>Peta Pemantauan Kawasan Cikande</h2>
@@ -30,17 +35,28 @@
       complete: function(results) {
         results.data.forEach(function(row) {
           if (!row.Latitude || !row.Longitude) return;
+
           var kategori = row.Kategori || "Lainnya";
           if (!layerGroups[kategori]) {
             layerGroups[kategori] = L.layerGroup().addTo(map);
           }
+
+          // Buat isi popup dinamis dari semua kolom CSV
+          var popupContent = "<b>" + (row.Nama || "Tanpa Nama") + "</b><br/>";
+          for (var key in row) {
+            if (row[key] && key !== "Latitude" && key !== "Longitude") {
+              popupContent += "<b>" + key + ":</b> " + row[key] + "<br/>";
+            }
+          }
+
           var marker = L.marker([parseFloat(row.Latitude), parseFloat(row.Longitude)])
-            .bindPopup("<b>" + row.Nama + "</b><br/>Kategori: " + kategori);
+            .bindPopup(popupContent);
+
           layerGroups[kategori].addLayer(marker);
         });
 
         // Tambahkan kontrol layer
-        L.control.layers(null, layerGroups).addTo(map);
+        L.control.layers(null, layerGroups, { collapsed:false }).addTo(map);
       }
     });
   </script>
