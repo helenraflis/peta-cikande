@@ -1,4 +1,4 @@
-# 🗺️ Peta Topikal Interaktif
+# 🗺️ Peta Pemantauan Cikande
 
 Repo ini adalah template sederhana untuk membuat **peta interaktif berbasis Leaflet** yang membaca data dari **file CSV**.  
 Cukup update `data.csv`, maka peta otomatis menampilkan lokasi baru tanpa perlu mengubah kode.
