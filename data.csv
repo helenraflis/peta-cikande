@@ -1,55 +1,71 @@
-Nama,Kategori,Latitude,Longitude,Paparan,Keterangan,,
-Lokus A,Hot Spot,-6.185432,106.325375,> 250 mikro Sv/h,Lapak Besi Tua /Scrap Metal,,
-Lokus B,Hot Spot,-6.194974,106.323,10.000 mikroSv/h,Lapak Pak Sukanta (Kardus dan Plastik),,
-Lokus C,Hot Spot,-6.196225,106.3293,1000  mikroSv/h,PT. Vita Stell Prodana (Pabrik Tutup tahun 2022),,
-Lokus D,Hot Spot,-6.19617,106.323,11 mikroSv/h,Belakang PT. Kanemory,,
-Lokus E,Hot Spot,-6.192646,106.3253,150 mikroSv/h,Samping Bengkel wong Tegal/Depan Rumah Warga (adik Bu Niti),,
-Lokus F,Hot Spot,-6.193285,106.326757,1000 mikroSv/h,"Lapak Deni Irawan (Plastik, Kardus, dll) dan Samping Sawah dekat Danau Kecil (0.9 mikro Sv/h)",,
-Lokus G,Hot Spot,-6.2104,106.32,700 mikroSv/h,PT. Peter Metal Technology (Pabrik tutup bulan Juli 2025),,
-Lokus H,Hot Spot,-6.21159,106.32,24.46 mikro Sv/h,PT. Ever Loyal Cooper,,
-Lokus I,Hot Spot,-6.227522,106.319388,21.2 µSv/h,Lapak Plastik atau Grasswool Filter Pak Turandi,,
-Lokus J,Hot Spot,-6.194428789,106.3270064,5.58 mSv/h,Titik BIN dekat Lokus F,,I
-Non Hot Spot 1,Non Hot Spot,-6.1752166,106.3162774,0.089 mikro Sv/h,Kawasan Nikomas : area yang diinfokan bea cukai Belanda terdeteksi di kotak sepatu kets sebesar 0.110 uSv/h terdeteksi Cs-137 dg aktivitas spesifik 1.6 Bq/gr,,
-Non Hot Spot 2,Non Hot Spot,-6.18622,106.3256,0.858 mikro Sv/h,Seberang PT. Sokonindo Automobile,,
-Non Hot Spot 3,Non Hot Spot,-6.184996,106.311362,0.582 mikro Sv/h,Beberapa meter belakang truck kontainer,,
-Non Hot Spot 4,Non Hot Spot,-6.186846,106.310895,0.456 mikro Sv/h,Beberapa meter depan kontainer dan seberang PT. Luckyone/belakang PT. Citra Baru Steel,,
-Non Hot Spot 5,Non Hot Spot,-6.185841,106.311152,1.36 mikro Sv/h,Truck Kontainer (1 truck mengangkut 2 kotak kontainer warna biru dan merah),,
-Non Hot Spot 6,Non Hot Spot,-6.164568,106.327911,0.157 mikro Sv/h,Diatas Grid B10,,
-Non Hot Spot 7,Non Hot Spot,-6.187103,106.320618,0.166 mikro Sv/h,PT. BMS : Titik area yg diinfokan US-CBP dan US-FDA bahwa produk frozen shrimp asal Indonesia terdeteksi Cs-137 dg laju paparan 0.115 uSv/h,,
-Non Hot Spot 8,Non Hot Spot,-6.180532,106.313811,0.194 mikro Sv/h,PT. Sinta Baja Jaya,,
-Non Hot Spot 9,Non Hot Spot,-6.227481,106.319306,0.791 mikro Sv/h,Pengepul Sampah (radius 2-5 km) ==> telah menjadi HOTSPOT,,
-Non Hot Spot 10,Non Hot Spot,-6.199166,106.321981,0.22 mikro Sv/h,"Tempat sampah samping masjid sebesar 0,22 uSv/h sekian",,
-Non Hot Spot 11,Non Hot Spot,-6.193093,106.326701,1.35 mikro Sv/h,"Pengepul samping sawah/danau sebesar 1,35 uSv/h (diluar pagar)",,
-Non Hot Spot 12,Non Hot Spot,-6.193623,106.327062,1.1 mikro Sv/h,"Di dekat sawah dan danau sebesar 0,3 – 1.1 uSv/h sekian",,
-Sampel 1,Pengambilan Sampel,-6.175529,106.316893,"Cs134, Cs137",Cd010101-U-210825,,
-Sampel 2,Pengambilan Sampel,-6.175256,106.316141,Cs137,Cd010801-U-210825,,
-Sampel 3,Pengambilan Sampel,-6.186356,106.322142,"Cs134, Cs137",Cd020301-U-210825,,
-Sampel 4,Pengambilan Sampel,-6.190079,106.318646,Cs137,Cd020302-U-210825,,
-Sampel 5,Pengambilan Sampel,-6.180076,106.314531,Cs137,Cd010001-U-210825,,
-Sampel 6,Pengambilan Sampel,-6.19416,106.327985,Cs137,Cd020301-S-220825,,
-Sampel 7,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030101-S-220825,,
-Sampel 8,Pengambilan Sampel,-6.19416,106.327985,"Cs134, Cs137",Cd020304-A-220825,,
-Sampel 9,Pengambilan Sampel,-6.196896,106.329286,Cs137,Cd030301-A-220825,,
-Sampel 10,Pengambilan Sampel,-6.198771,106.322228,"Cs134, Cs137",Cd020301-A-220825,,
-Sampel 11,Pengambilan Sampel,-6.190535,106.323853,Cs137,Cd020302-A-220825,,
-Sampel 12,Pengambilan Sampel,-6.188293,106.323415,Cs137,Cd020303-A-220825,,
-Sampel 13,Pengambilan Sampel,-6.175113,106.3139,Cs137,cd010801-A-220825,,
-Sampel 14,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030302-A-220825,,
-Sampel 15,Pengambilan Sampel,-6.162231804,106.310609,Cs137,Cd030801-A-220825,,
-Sampel 16,Pengambilan Sampel,-6.175529,106.316893,Cs137,Cd010801-A-220825,,
-Sampel 17,Pengambilan Sampel,-6.175529,106.316893,Cs137,Cd010801-A-210825,,
-Sampel 18,Pengambilan Sampel,-6.192801,106.327181,Cs137,Cd020301-T-220825,,
-Sampel 19,Pengambilan Sampel,-6.198771,106.322228,Cs137,Cd030301-T-220825,,
-Sampel 20,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030101-T-220825,,
-Sampel 21,Pengambilan Sampel,-6.175113,106.3139,Cs137,Cd010801-T-220825,,
-Sampel 22,Pengambilan Sampel,-6.173831,106.316427,Cs137,Cd010801-T-210825,,
-Sampel 23,Pengambilan Sampel,-6.180076,106.314531,Cs137,Cd010001-T-210825,,
-Sampel 24,Pengambilan Sampel,-6.191746,106.326859,Cs137,Cd020301-R-220825,,
-Sampel 25,Pengambilan Sampel,-6.192801,106.327181,Cs137,Cd020302-R-220825,,
-Sampel 26,Pengambilan Sampel,-6.197737,106.321165,Cs137,Cd020303-R-220825,,
-Sampel 27,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030101-R-220825,,
-Sampel 28,Pengambilan Sampel,-6.175113,106.3139,Cs137,Cd010801-R-220825,,
-Sampel 29,Pengambilan Sampel,-6.173831,106.316893,Cs137,Cd010101-R-210825,,
-Sampel 30-31,Pengambilan Sampel,-6.195826,106.284396,Cs137,Pengambilan tgl 12 September 2025,,
-Sampel 32-33,Pengambilan Sampel,-6.229342,106.29158,Cs137,Pengambilan tgl 12 September 2025,,
-Sampel 34-35,Pengambilan Sampel,-6.227522,106.319388,Cs137,Pengambilan tgl 12 September 2025,,
+Nama,Kategori,Latitude,Longitude,Paparan/Radionuklida,Keterangan,Lokasi,Konsentrasi Radioaktivitas Cs-137 (Bq/L),Konsentrasi Radioaktivitas Cs-134 (Bq/L),Nilai Batas (Perka Bapeten No. 7 Tahun 2017)
+Lokus A,Hot Spot,-6.185432,106.325375,> 250 mikro Sv/h,Lapak Besi Tua /Scrap Metal,-,-,-,-
+Lokus B,Hot Spot,-6.194974,106.323,10.000 mikroSv/h,Lapak Pak Sukanta (Kardus dan Plastik),-,-,-,-
+Lokus C,Hot Spot,-6.196225,106.3293,1000  mikroSv/h,PT. Vita Stell Prodana (Pabrik Tutup tahun 2022),-,-,-,-
+Lokus D,Hot Spot,-6.19617,106.323,11 mikroSv/h,Belakang PT. Kanemory,-,-,-,-
+Lokus E,Hot Spot,-6.192646,106.3253,150 mikroSv/h,Samping Bengkel wong Tegal/Depan Rumah Warga (adik Bu Niti),-,-,-,-
+Lokus F,Hot Spot,-6.193285,106.326757,1000 mikroSv/h,"Lapak Deni Irawan (Plastik, Kardus, dll) dan Samping Sawah dekat Danau Kecil (0.9 mikro Sv/h)",-,-,-,-
+Lokus G,Hot Spot,-6.2104,106.32,700 mikroSv/h,PT. Peter Metal Technology (Pabrik tutup bulan Juli 2025),-,-,-,-
+Lokus H,Hot Spot,-6.21159,106.32,24.46 mikro Sv/h,PT. Ever Loyal Cooper,-,-,-,-
+Lokus I,Hot Spot,-6.227522,106.319388,21.2 µSv/h,Lapak Plastik atau Grasswool Filter Pak Turandi,-,-,-,-
+Lokus J,Hot Spot,-6.194428789,106.3270064,5.58 mSv/h,Titik BIN dekat Lokus F,,,,
+Non Hot Spot 1,Non Hot Spot,-6.1752166,106.3162774,0.089 mikro Sv/h,Kawasan Nikomas : area yang diinfokan bea cukai Belanda terdeteksi di kotak sepatu kets sebesar 0.110 uSv/h terdeteksi Cs-137 dg aktivitas spesifik 1.6 Bq/gr,-,-,-,-
+Non Hot Spot 2,Non Hot Spot,-6.18622,106.3256,0.858 mikro Sv/h,Seberang PT. Sokonindo Automobile,-,-,-,-
+Non Hot Spot 3,Non Hot Spot,-6.184996,106.311362,0.582 mikro Sv/h,Beberapa meter belakang truck kontainer,-,-,-,-
+Non Hot Spot 4,Non Hot Spot,-6.186846,106.310895,0.456 mikro Sv/h,Beberapa meter depan kontainer dan seberang PT. Luckyone/belakang PT. Citra Baru Steel,-,-,-,-
+Non Hot Spot 5,Non Hot Spot,-6.185841,106.311152,1.36 mikro Sv/h,Truck Kontainer (1 truck mengangkut 2 kotak kontainer warna biru dan merah),-,-,-,-
+Non Hot Spot 6,Non Hot Spot,-6.164568,106.327911,0.157 mikro Sv/h,Diatas Grid B10,-,-,-,-
+Non Hot Spot 7,Non Hot Spot,-6.187103,106.320618,0.166 mikro Sv/h,PT. BMS : Titik area yg diinfokan US-CBP dan US-FDA bahwa produk frozen shrimp asal Indonesia terdeteksi Cs-137 dg laju paparan 0.115 uSv/h,-,-,-,-
+Non Hot Spot 8,Non Hot Spot,-6.180532,106.313811,0.194 mikro Sv/h,PT. Sinta Baja Jaya,-,-,-,-
+Non Hot Spot 9,Non Hot Spot,-6.227481,106.319306,0.791 mikro Sv/h,Pengepul Sampah (radius 2-5 km) ==> telah menjadi HOTSPOT,-,-,-,-
+Non Hot Spot 10,Non Hot Spot,-6.199166,106.321981,0.22 mikro Sv/h,"Tempat sampah samping masjid sebesar 0,22 uSv/h sekian",-,-,-,-
+Non Hot Spot 11,Non Hot Spot,-6.193093,106.326701,1.35 mikro Sv/h,"Pengepul samping sawah/danau sebesar 1,35 uSv/h (diluar pagar)",-,-,-,-
+Non Hot Spot 12,Non Hot Spot,-6.193623,106.327062,1.1 mikro Sv/h,"Di dekat sawah dan danau sebesar 0,3 – 1.1 uSv/h sekian",-,-,-,-
+Sampel 1,Pengambilan Sampel,-6.175529,106.316893,"Cs134, Cs137",Cd010101-U-210825 (E7),Di samping Situ Panebong (di PT. Nikomas),"< 0,80 ","< 0,13","Cs-137: 2,2 x 10-5 Bq/l
+Cs-134: 2,1 x 10-5 Bq/l"
+Sampel 2,Pengambilan Sampel,-6.175256,106.316141,Cs137,Cd010801-U-210825 (E7),Di samping Situ Panebong (dekat rumah pompa PT. Nikomas),"< 0,80 ",-,"Cs-137: 2,2 x 10-5 Bq/l
+Cs-134: 2,1 x 10-5 Bq/l"
+Sampel 3,Pengambilan Sampel,-6.186356,106.322142,"Cs134, Cs137",Cd020301-U-210825 (I9),PT. BMS,"< 0,80 ","< 0,13","Cs-137: 2,2 x 10-5 Bq/l
+Cs-134: 2,1 x 10-5 Bq/l"
+Sampel 4,Pengambilan Sampel,-6.190079,106.318646,Cs137,Cd020302-U-210825 (J8),PT. BMS 2,"< 0,80 ",-,"Cs-137: 2,2 x 10-5 Bq/l
+Cs-134: 2,1 x 10-5 Bq/l"
+Sampel 5,Pengambilan Sampel,-6.180076,106.314531,Cs137,Cd010001-U-210825 (G6),PT. Sinta Baja Jaya,"< 0,80 ",-,"Cs-137: 2,2 x 10-5 Bq/l
+Cs-134: 2,1 x 10-5 Bq/l"
+Sampel 6,Pengambilan Sampel,-6.19416,106.327985,Cs137,Cd020301-S-220825 (K11),Sedimen di danau kecil samping lapak lokus F,"150,95 ± 15,1",-,-
+Sampel 7,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030101-S-220825 (B10),Sedimen di situ panebong dekat bekas lapak yang terbakar,"592,51 ± 59,25",-,-
+Sampel 8,Pengambilan Sampel,-6.19416,106.327985,"Cs134, Cs137",Cd020304-A-220825 (K11),Air danau samping lokus F (air masuk sawah),"< 0,80","1,32 ± 0,13","Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 9,Pengambilan Sampel,-6.196896,106.329286,Cs137,Cd030301-A-220825 (R3J3),Air sungai disamping PT. Vita (lokus C),"< 0,80",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 10,Pengambilan Sampel,-6.198771,106.322228,"Cs134, Cs137",Cd020301-A-220825 (L9),Air di mesjid Jami Al Ikhlas,"< 0,80","< 0,13","Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 11,Pengambilan Sampel,-6.190535,106.323853,Cs137,Cd020302-A-220825 (J9),Air di mesjid Mujahidin,"< 0,80",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 12,Pengambilan Sampel,-6.188293,106.323415,Cs137,Cd020303-A-220825 (I9),Air dari proses dekontaminasi PT. BMS,"9,74 ± 0,97",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 13,Pengambilan Sampel,-6.175113,106.3139,Cs137,cd010801-A-220825 (B10),Air selokan (dekat bekas lapak yang terbakar),"< 0,80",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 14,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030302-A-220825 (A5),Air PDAM,"< 0,80",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 15,Pengambilan Sampel,-6.162231804,106.310609,Cs137,Cd030801-A-220825 (E6),"Air buangan (dekat PT. Xingye Logam Indon, selatan PT Nikomas)","< 0,80",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 16,Pengambilan Sampel,-6.175529,106.316893,Cs137,Cd010801-A-220825 (E7),Air Situ Panebong (di PT. Nikomas),"1,18 ± 0,12",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 17,Pengambilan Sampel,-6.175529,106.316893,Cs137,Cd010801-A-210825 (E7),Air dari PT. Nikomas (setelah proses penjernihan),"< 0,80",-,"Cs-137: 0,22 Bq/l
+Cs-134: 0,17 Bq/l"
+Sampel 18,Pengambilan Sampel,-6.192801,106.327181,Cs137,Cd020301-T-220825 (K10),"Di samping PT. Sukonindo, Belakang Polsek, Lokus A","775,41 ± 77,54",-,-
+Sampel 19,Pengambilan Sampel,-6.198771,106.322228,Cs137,Cd030301-T-220825 (R3J3),Di Masjid Jami Al Ikhlas,"431,62 ± 43,16",-,-
+Sampel 20,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030101-T-220825 (B10),Di bekas lapak yang terbakar dekat PT. Nikomas,"270,43 ± 27,04",-,-
+Sampel 21,Pengambilan Sampel,-6.175113,106.3139,Cs137,Cd010801-T-220825 (E6),Di PT. Nikomas,"114,58 ± 11,46",-,-
+Sampel 22,Pengambilan Sampel,-6.173831,106.316427,Cs137,Cd010801-T-210825 (E7),Di samping situ Panebong dekat PT. Nikomas,"102,50 ± 10,25",-,-
+Sampel 23,Pengambilan Sampel,-6.180076,106.314531,Cs137,Cd010001-T-210825 (G6),Di PT. Sinta Baja Jaya,"235,89 ± 23,59",-,-
+Sampel 24,Pengambilan Sampel,-6.191746,106.326859,Cs137,Cd020301-R-220825 (J10),Tanaman padi di sawah utara lokus E dan F,"24,04 ± 2,40",-,500 Bq/kg 
+Sampel 25,Pengambilan Sampel,-6.192801,106.327181,Cs137,Cd020302-R-220825 (K10),Tanaman padi di sawah di dekat lokus F,"258,97 ± 25,90",-,500 Bq/kg 
+Sampel 26,Pengambilan Sampel,-6.197737,106.321165,Cs137,Cd020303-R-220825 (L8),Rumput di jalanan depan PT. Kanemory,"1726 ± 172,6",-,500 Bq/kg 
+Sampel 27,Pengambilan Sampel,-6.164568,106.327911,Cs137,Cd030101-R-220825 (B10),Rumput di bekas lapak yang terbakar dekat PT. Nikomas,"110,68 ± 11,07",-,500 Bq/kg 
+Sampel 28,Pengambilan Sampel,-6.175113,106.3139,Cs137,Cd010801-R-220825 (E6),Rumput di PT. Nikomas,"97,78 ± 9,78",-,500 Bq/kg 
+Sampel 29,Pengambilan Sampel,-6.173831,106.316893,Cs137,Cd010101-R-210825 (E7),Tanaman merambat di pinggir situ Panebong (dekat PT. Nikomas),"49,38 ± 4,94",-,500 Bq/kg 
+Sampel 30-31,Pengambilan Sampel,-6.186356,106.322142,"Cs134, Cs137",Pengambilan tgl 11 September 2025,Sampling Udara di Pintu Masuk PT. BMS,-,-,-
+Sampel 31-32,Pengambilan Sampel,-6.195826,106.284396,Cs137,Pengambilan tgl 12 September 2025,Hilir Sungai Ciujung : Air Sungai Ciujung-1 (20lt) dan Sedimen Sungai Ciujung-1 (2kg),-,-,-
+Sampel 33-34,Pengambilan Sampel,-6.229342,106.29158,Cs137,Pengambilan tgl 12 September 2025,Hulu Sungai Ciujung : Air Sungai Ciujung-1 (20lt) dan Sedimen Sungai Ciujung-1 (2kg),-,-,-
+Sampel 35-36,Pengambilan Sampel,-6.227522,106.319388,Cs137,Pengambilan tgl 12 September 2025,"Lapak pengepul Plastik  G7, Bpk. Turandi : Tanah (2kg) dan Rumput (2kg)",-,-,-
